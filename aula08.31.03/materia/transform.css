@@ -1,0 +1,26 @@
+/*transform
+
+transform: scale(2); 2 dobra de tamanho
+não mexe nos outros elementos ao redor
+cresce em x e y
+
+scaleX(2): cresce horizontal
+scaleY(2): cresce vertical
+scale(-1) inverte
+
+
+translate(20px) movimenta o elemento pra direita ou esquerda
+translateX(20px)
+translateY(20px)
+
+
+transform: translate(20px, -20px) - controla x e y
+
+
+transform: rotate(45deg) - gira em unidade grau/angulo
+ou usar 1turn = 360°
+
+
+transform: rotate(30deg)
+transform-origin: top left; - muda de onde começa a transformação
+rotate e scale

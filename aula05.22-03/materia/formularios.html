@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIOS</title>
+</head>
+<body>
+<form action="https://www.google.com/search" method="get" target="_blank"> 
+    <!-- usar get para pesquisa-->
+    <!-- action: pra qual url vou enviar-->
+    <input type="text" name= "q" />
+    <input type="submit" /> <!-- botão de enviar/submitar-->
+
+    <!-- OUTROS TIPOS DE IMPUT-->
+    <button type="button"> BOTÃO</button>
+
+    <div>    
+        <label for="txtNome">Nome</label> <!-- vai aparecer na frente o que a pessoa precisa escrever no formulário-->
+        <input type="text" placeholder="Nome" id="txtNome" required> <!--vai aparecer o que a pessoa precisa escrever no formulário dentro da caixa -->
+    </div>
+    <div>    
+        <label for="txtemail">E-mail</label>
+        <input type="email" placeholder="e-mail" id="txtemail" required> 
+    </div>
+    <div>
+        <label for="txtSenha">Senha</label>
+        <input type="password" placeholder="senha" id="txtSenha" required> <!-- aparece as bolinhas na caixa-->
+    </div>
+    <button type="submit"> BOTÃO</button> <!-- botão de enviar/submitar-->
+
+    <!--required - torna o input obrigatório, pessoa não consegue enviar sem colocar dados-->
+
+</form>
+
+    
+</body>
+</html>

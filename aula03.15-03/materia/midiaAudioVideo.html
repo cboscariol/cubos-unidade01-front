@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia no html</title>
+
+    <style>
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+       /*importando fontes em arquivos*/
+       @font-face {
+           font-family: 'nome da fonte' ;
+           src: url('nome do arquivo.ttf');
+           font-weight: bold;
+       }
+
+       body {
+           font-family: 'nome da fonte', serif;
+       }
+    </style>
+</head>
+<body>
+    <img src="dog.png" alt="foto cachorro" width= "500px">
+    <video controls autoplay muted>
+    <source src=".mp4" />
+    <source src=".ogg" />
+        Pode passar uma mensagem detro do vídeo | controls é para deixar o usuário controlar o video (pausa, play, full scream, etc)
+        autoplay (dá play automatico) muted (mudo automatico)
+    </video>
+
+    <audio controls>
+        <source src="musica.mp4"/>
+        <source src="musica.ogg"/>
+        Pode passar uma mensagem detro do audio
+    </audio>
+
+    <!--como centralizar uma imagem
+     img {
+            display: block;
+            margin: 0 auto;
+        }
+    -->
+    <img src="dog.png" alt="">
+
+  
+</body>
+</html>

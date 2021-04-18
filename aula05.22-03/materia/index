@@ -1,0 +1,12 @@
+USAR NO HTML
+<strong> - negrito - O texto tem uma importância
+<b> - também fica em negrito, mas sem importância
+
+<i> - toz de voz diferente, transcrito, palavras em outra língua, termos tecnicos 
+<em> - italico - dá enfase à palavra (ex. saia da cama já!)
+
+<mark> - grifa em amarelo
+<sub> - tab pra baixo ex. H<sub>2</sub>O - e ai o 2 é jogado um pouco para baixo
+<sup> - tab pra cima ex. HTML<sub>1</sub> - E o 1 é jogado p/ cima
+
+<del> - risco no meio (algo que está errado por exemplo)

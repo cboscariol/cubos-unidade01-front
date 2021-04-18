@@ -1,0 +1,17 @@
+     body{
+        background: black url('dog.png') center/cover no-repeat;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h1 {
+            font-size: 70px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none; /* tira a bolinha/estilização da lista, opções square, disc, circle */
+        }

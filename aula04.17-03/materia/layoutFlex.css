@@ -1,0 +1,52 @@
+/*Flexbox
+colocar o flex no pai/container (display:flex;)
+container -> pai || itens -> filhos
+um elemento pode ser container e item flex ao mesmo tempo(caso o filho contenha outros itens)
+
+direções no flex:
+row: linha || column: coluna
+
+alinhamento no flexbox: justify-content(alinha no eixo direto-direção do elemento)
+flex-start | flex-end | center | space-between | space arount | space-evenly
+
+eixo cruzado: align-items (provavel filhos de tamanho diferentes)
+
+quebra de linha no flexbox
+flex-wrap (quebra de linha)
+wrap -  quebra
+no-wrap - não quebra
+
+align-content - alinhamento das faixas(colunha/linha)
+
+algoritmo do flexbox 
+flex-grow - como o elemento cresce
+flex-shrink - como o elemento encolhe
+flex-basis - base 
+flex: flex-grow flex-shrink flex-basis;
+flex: 0 1 auto;
+PADRÃO
+
+CONTAINER x ITEM
+Container: 
+flex-direction
+flex-wrap
+justify-content
+align-itens
+align-content
+
+item: 
+flex
+    flex-grow
+    flex-shrink
+    flex-basis
+ align-self   (muda o alinhamento de um iten no eixo cruzado)
+
+ MARGIN: AUTO E FLEXBOX - margin auto consege deixa o elemento separado
+
+ CORES no CSS:
+
+ transparencia: rgba (r, b, b, transparencia)
+ hsla (h, s, l, transparencia)
+ 0/0% - transparente
+ 1/100% - totalmente visivel
+

@@ -1,0 +1,10 @@
+/*POSITION*/
+
+
+z-index - frente/tras
+y - cima/baixo
+x - esqueda/direita
+
+inherit - faz o elemento herdar do :playing
+
+all: unset - tira o estilo padrão (input/button por exemplo)

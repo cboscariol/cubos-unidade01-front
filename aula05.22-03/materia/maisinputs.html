@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs part 2</title>
+</head>
+<body>
+
+    <form action="resultados.html" method="get">
+        <div><label for="txtIdade">Idade</label>
+        <input type="number" name="idade" id="txtIdade" min="18" max= "130" step="3">
+        <!--min- numero mínimo que o form aceita-->
+        <!--max- numero maximo que o form aceita-->
+        <!--step- se for 3, pula de 3 em 3-->
+    </div>
+          <br>
+    <div>
+        Melhor fruta <br>
+        <label for="ckbBanana">Banana </label>
+        <input type="checkbox" name="Banana" id="ckbBanana" value="banana">
+        <br>
+        <label for="ckbMorango">Morango </label>
+        <input type="checkbox" name="Morango" id="ckbMorango" value="Morango">
+        <!--checkBox - pode selecionar várias box-->
+        <!--value - para quando for enviado, o back receber o valor certo-->
+        <br>
+        <label for="ckbMorango">Morango </label>
+        <input type="radio" name="Morango" id="ckbMorango" value="Morango">
+        <br>
+        <label for="ckbBanana">Banana </label>
+        <input type="radio" name="Banana" id="ckbBanana" value="banana">
+        <!--radio - só da pra dar check em uma opção-->
+        <br>
+        
+    </div>
+
+    <div>
+        <label for="ckbMorango">Melhor Fruta </label>
+        <select name="melhorFruta" id="drpMelhorFruta">
+            <option value="banana">Banana</option>
+            <option value="morango">Morango</option>
+            <option value="abacaxi">Abacaxi</option>
+            <option value="kiwi">Kiwi</option> <!--select - clica e aparece as opções-->
+        </select>
+    </div> 
+    <label for="txtContato">Contato</label>
+    <textarea name="descricao" id="txtContato" ></textarea>
+
+   <div>
+       <label for="txtData">Data</label>
+       <input type="date" id="txtData" name="data">
+   </div>
+    <button type="submit">ENVIAR</button> <!-- botão de enviar/submitar-->
+    <button type="reset">LIMPAR</button> <!-- LIMPA AS INFORMAÇÕES-->
+
+
+    </form>
+
+    
+</body>
+</html>

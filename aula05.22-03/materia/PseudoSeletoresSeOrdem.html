@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo seletores de ordem</title>
+
+    <style>
+        tbody tr:first-child /*seleciona o tr do tbody que seja o primeiro filho*/ {}
+        tbody tr:last-child /*seleciona o tr do tbody que seja o ultimo filho*/ {}
+        tbody tr:nth-child(even) /*seleciona o tr do tbody pares*/ {}
+        tbody tr:nth-child(odd) /*seleciona o tr do tbody impares*/ {}
+        tbody tr:nth-child(3n) /*seleciona o tr do tbody a cada 3*/ {}
+        tbody tr:nth-child(3n + 1) /*seleciona o tr do tbody 3 * n + 1*/ {}
+
+        divPai>p {/*estiliza somente os filhos diretos de divPai*/}
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead> <!--ajuda a estilizar o cabeçalho da tabela-->
+            <tr><!--Linha table row-->
+                <th>NOME</th> <!-- table header / COLUNA-->
+                <th colspan="2">Telefone</th> <!--colSpan mescla as celulas, 2 para a celula ocupar 2 espaços-->
+            </tr>
+        </thead>
+        <tbody> <!--ajuda a estilizar o corpo da tabela-->
+            <tr><!--Linha table row-->
+                <td>Camila</td> <!--Table data / conteudo da celula-->
+                <td>119999</td> <!-- Vai ficar na frente de Camila-->       
+            <tr><!--Linha table row-->
+                <td>Victor</td> <!--em baixo de camila-->
+                <td>130999</td> <!--na frente de Victor-->
+            </tr>
+        </tbody>
+        <tfoot> <!--ajuda a estilizar o rodapé da tabela-->
+            <tr>
+                <td>-------</td>
+                <td>-------</td>
+            </tr>
+        </tfoot>
+        </table>
+    
+    
+</body>
+</html>

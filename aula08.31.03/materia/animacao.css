@@ -1,0 +1,17 @@
+/* 
+
+animation: scale 2s ease
+animation-interation-count: 1
+numero de vezes que a animação de se repete
+ifinite (nunca para)
+
+animation-direction: reverse/normal/alternate
+do fron até to e do to até from, ou alternado
+
+
+PERFOMANCE DE ANIMAÇÕES
+
+preferir animar com opacity ou transform
+
+
+object-fit: cover

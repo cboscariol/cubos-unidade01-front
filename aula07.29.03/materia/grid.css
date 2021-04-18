@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+}
+
+/*define colunas e linhas iguais
+
+column: coluna - itens um embaixo de outro
+row: linhas
+track - linha ou coluna
+gap - espaço entre os elementos
+
+template-row: define tamanho das linhas 200px 100px 200px - 3 linhas com esses tamanhos
+template-columns: define tamanho de colunas
+gap: 
+row-gap
+comumn-gap
+
+
+.grid { 
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 200px 150px 200px;
+}
+
+min-content - menor tamanho do elemento sem vazamento
+max-content - o menor tamanho sem quebra de linha
+
+fr - unidade flexível
+ grid-template-columns: 1fr 1fr 1fr;
+
+ repeat() para repetir o tamanho da track
+ grid-template-columns: (3, 1fr); tres é a quantidades de vezes que repete
+
+ minmax(200px, 1fr) 1fr, mas não menos do que 200px
+grid-template-columns: 1fr minmax(200px, 1fr) 1fr;
+
+
+
